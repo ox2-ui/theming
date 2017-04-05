@@ -22,13 +22,13 @@ const getButtonRules = ({ title, color }) => {
 [data-btn~="${title}"] {
   background-color: ${color};
 }
-[data-btn~="${title}"][data-btn~="outline"]: {
+[data-btn~="${title}"][data-btn~="outline"] {
   background-color: inherit;
-  border-color: ${color};
   color: ${color};
+  border-color: ${color};
 }
-[data-btn~="${title}"][data-btn~="transparent"]: {
-  'background-color': 'hsla(0, 0%, 0%, 0)';
+[data-btn~="${title}"][data-btn~="transparent"] {
+  background-color: hsla(0, 0%, 0%, 0);
   color: ${color};
 }`;
 };
