@@ -7,7 +7,7 @@ const getColorRules = ({ title, color }) => {
   background-color: ${color} !important;
 }
 .text-color\\:${title} {
-  background-color: ${color} !important;
+  color: ${color} !important;
 }
 .border-color\\:${title} {
   border-color: ${color} !important;
@@ -24,8 +24,8 @@ const getButtonRules = ({ title, color }) => {
 }
 [data-btn~="${title}"][data-btn~="outline"]: {
   background-color: inherit;
-  color: ${color};
   border-color: ${color};
+  color: ${color};
 }
 [data-btn~="${title}"][data-btn~="transparent"]: {
   'background-color': 'hsla(0, 0%, 0%, 0)';
