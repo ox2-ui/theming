@@ -3,7 +3,7 @@
  * @param   {Object} theme Theme object with color titles (key) and color values (value)
  * @return  {Object}       Generated rules object that can be used in jss
  */
-const creteRulesForColors = (theme) => {
+const creteRulesForColors = theme => {
   const keys = Object.keys(theme);
   const rules = {};
 

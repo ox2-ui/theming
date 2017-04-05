@@ -1,5 +1,7 @@
 import { configure } from '@kadira/storybook';
-import { setOptions } from '@kadira/storybook-addon-options';
+import {
+  setOptions,
+} from '@kadira/storybook-addon-options';
 
 const req = require.context('../src/', true, /.story\.js$/);
 
@@ -11,6 +13,5 @@ function loadStories() {
 setOptions({
   name: 'theming',
 });
-
 
 configure(loadStories, module);

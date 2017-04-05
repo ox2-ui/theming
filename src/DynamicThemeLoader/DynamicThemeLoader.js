@@ -7,13 +7,17 @@ let sheet = {};
 /**
  * DynamicThemeLoader Component
  */
-const DynamicThemeLoader = (props) => {
+const DynamicThemeLoader = props => {
   const { theme } = props;
 
   if (sheet.detach) {
     sheet.detach();
   }
-  sheet = jss.createStyleSheet(creteRulesForColors(theme), {named: false}).attach();
+  sheet = jss
+    .createStyleSheet(creteRulesForColors(theme), {
+      named: false,
+    })
+    .attach();
 
   return false;
 };

@@ -6,12 +6,12 @@ import ThemePreview from './ThemePreview';
 import { assert } from 'chai';
 
 describe('ThemePreview', () => {
-
   it('should render a <ThemePreview> element', () => {
-    const wrapper = shallow(
-      <ThemePreview/>
+    const wrapper = shallow(<ThemePreview />);
+    assert.strictEqual(
+      wrapper.type(),
+      'div',
+      'should be a <div>',
     );
-    assert.strictEqual(wrapper.type(), 'div', 'should be a <div>');
   });
-
 });

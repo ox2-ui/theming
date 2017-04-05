@@ -76,7 +76,10 @@ const ThemePreview = () => {
         {colors.map((item, i) => {
           return (
             <div key={i} style={styles.box}>
-              <div style={styles.swatch} className={`color:${item}`} />
+              <div
+                style={styles.swatch}
+                className={`color:${item}`}
+              />
               <div style={styles.label}>{item}</div>
             </div>
           );
