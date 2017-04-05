@@ -13,6 +13,7 @@ const styles = {
     width: '30px',
     height: '30px',
     margin: '0 auto',
+    border: '3px solid white',
   },
   label: {
     color: 'grey',
@@ -68,7 +69,7 @@ const colors = [
 const ThemePreview = () => {
   return (
     <div>
-      Available color names:
+      Background colors:
       <div style={styles.wrapper}>
         {colors.map((item, i) => {
           return (
@@ -77,6 +78,59 @@ const ThemePreview = () => {
                 className={`color:${item}`}
                 style={styles.swatch}
               />
+              <div style={styles.label}>{item}</div>
+            </div>
+          );
+        })}
+      </div>
+      Text colors:
+      <div style={styles.wrapper}>
+        {colors.map((item, i) => {
+          return (
+            <div key={i} style={styles.box}>
+              <div
+                className={`text-color:${item}`}
+                style={styles.label}
+              >
+                {item}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      Border colors:
+      <div style={styles.wrapper}>
+        {colors.map((item, i) => {
+          return (
+            <div key={i} style={styles.box}>
+              <div
+                className={`border-color:${item}`}
+                style={styles.swatch}
+              />
+              <div style={styles.label}>{item}</div>
+            </div>
+          );
+        })}
+      </div>
+      Fill colors:
+      <div style={styles.wrapper}>
+        {colors.map((item, i) => {
+          return (
+            <div key={i} style={styles.box}>
+              <svg
+                height="30"
+                version="1.1"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  className={`fill-color:${item}`}
+                  height="30"
+                  width="30"
+                  x="0"
+                  y="0"
+                />
+              </svg>
               <div style={styles.label}>{item}</div>
             </div>
           );
