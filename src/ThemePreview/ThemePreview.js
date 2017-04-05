@@ -48,6 +48,7 @@ const colors = [
   'critical',
   'positive',
   'negative',
+  'highlight',
   // Branding colors
   'brand',
   'primary-header',
