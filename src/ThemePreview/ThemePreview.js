@@ -1,6 +1,4 @@
 import React from 'react';
-import DynamicThemeLoader from '../DynamicThemeLoader';
-import { default as theme } from '@tapfuse/theme-spark';
 
 const styles = {
   wrapper: {
@@ -70,15 +68,14 @@ const colors = [
 const ThemePreview = () => {
   return (
     <div>
-      <DynamicThemeLoader theme={theme} />
       Available color names:
       <div style={styles.wrapper}>
         {colors.map((item, i) => {
           return (
             <div key={i} style={styles.box}>
               <div
-                style={styles.swatch}
                 className={`color:${item}`}
+                style={styles.swatch}
               />
               <div style={styles.label}>{item}</div>
             </div>

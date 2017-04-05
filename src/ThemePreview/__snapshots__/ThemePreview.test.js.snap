@@ -1,0 +1,1008 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ThemePreview>
+  <div>
+    Available color names:
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexWrap": "wrap",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:white"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          white
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:item"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          item
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:backdrop"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          backdrop
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:backdrop-tint"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          backdrop-tint
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:item-alt"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          item-alt
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:backdrop-alt"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          backdrop-alt
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:neutral-tint"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          neutral-tint
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:neutral-faded"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          neutral-faded
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:neutral"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          neutral
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:neutral-light"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          neutral-light
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:neutral-dim"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          neutral-dim
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:neutral-dark"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          neutral-dark
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:dark"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          dark
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:light"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          light
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:light-faded"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          light-faded
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:action"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          action
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:warning"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          warning
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:attention"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          attention
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:critical"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          critical
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:positive"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          positive
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:negative"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          negative
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:highlight"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          highlight
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:brand"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          brand
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:primary-header"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          primary-header
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:action-menu"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          action-menu
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:action-menu-items"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          action-menu-items
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:main-menu-header"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          main-menu-header
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:main-menu-items"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          main-menu-items
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:main-menu-button"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          main-menu-button
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:twitter"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          twitter
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:facebook"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          facebook
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:linkedin"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          linkedin
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px",
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          className="color:google"
+          style={
+            Object {
+              "height": "30px",
+              "margin": "0 auto",
+              "width": "30px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "color": "grey",
+              "height": "50px",
+              "marginTop": "5px",
+            }
+          }
+        >
+          google
+        </div>
+      </div>
+    </div>
+  </div>
+</ThemePreview>
+`;
