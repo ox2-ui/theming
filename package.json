@@ -1,6 +1,6 @@
 {
   "name": "@ox2/theming",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Inject dynamic theme styles into page header.",
   "repository": {
     "type": "git",
