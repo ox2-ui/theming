@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # theming
 ![NPM version](https://img.shields.io/npm/v/@ox2/theming.svg?style=flat)
 
